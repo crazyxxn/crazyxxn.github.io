@@ -70,6 +70,62 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-test-my-site" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/05/11/test-my-site/" class="article-date">
+  <time datetime="2019-05-11T08:02:17.000Z" itemprop="datePublished">2019-05-11</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/05/11/test-my-site/">markdown实用技巧</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>写在前面：<br>我自己下载的markdownpad2，为了以后写东西方便，提前备这么一份文档，来记录各种用法。你在左边写，右边会显示效果，就不一一列举了。<br>参考：<a href="https://blog.csdn.net/jaywon/article/details/77992082" target="_blank" rel="noopener">https://blog.csdn.net/jaywon/article/details/77992082</a><br><a href="https://blog.csdn.net/u014061630/article/details/81359144" target="_blank" rel="noopener">https://blog.csdn.net/u014061630/article/details/81359144</a> </p>
+<h1 id="Markdown-实用技巧汇总"><a href="#Markdown-实用技巧汇总" class="headerlink" title="Markdown 实用技巧汇总"></a>Markdown 实用技巧汇总</h1><pre><code>Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。
+</code></pre><h1 id="1-快捷键"><a href="#1-快捷键" class="headerlink" title="1.快捷键"></a>1.快捷键</h1><p>加粗        &emsp;    Ctrl+B<br>斜体        &emsp;    Ctrl+I<br>引用        &emsp;    Ctrl+Q<br>插入链接        Ctrl+L<br>插入代码        Ctrl+K<br>插入图片        Ctrl+G<br>提升标题        Ctrl+H<br>有序列表        Ctrl+O<br>无序列表        Ctrl+U<br>横线        &emsp;    Ctrl+R<br>撤销        &emsp;    Ctrl+Z<br>重做         &ensp;&ensp;    Ctrl+Y  (半角空格)</p>
+<h1 id="2-基本语法"><a href="#2-基本语法" class="headerlink" title="2.基本语法"></a>2.基本语法</h1><h2 id="2-1-字体设置、斜体、粗体、删除线"><a href="#2-1-字体设置、斜体、粗体、删除线" class="headerlink" title="2.1 字体设置、斜体、粗体、删除线"></a>2.1 字体设置、斜体、粗体、删除线</h2><p><em>这是一句话</em><br><em>这是一句话</em><br><strong>这是一句话</strong><br><strong><em>这是一句话</em></strong><br><del>这也是一句话</del>  </p>
+<h2 id="2-2-分级标题"><a href="#2-2-分级标题" class="headerlink" title="2.2 分级标题"></a>2.2 分级标题</h2><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><h1 id="这是一个标题"><a href="#这是一个标题" class="headerlink" title="这是一个标题"></a>这是一个标题</h1><h2 id="这也是一个标题"><a href="#这也是一个标题" class="headerlink" title="这也是一个标题  "></a>这也是一个标题  </h2><h2 id="2-3-链接"><a href="#2-3-链接" class="headerlink" title="2.3 链接"></a>2.3 链接</h2><h3 id="1-插入本地图片链接"><a href="#1-插入本地图片链接" class="headerlink" title="(1) 插入本地图片链接"></a>(1) 插入本地图片链接</h3><p><img src="/pic.png" alt="图片描述"></p>
+<p><img src="/pics/pic01.jpg" alt="图片描述"></p>
+<h3 id="（2）插入互联网图片（新浪做图床）"><a href="#（2）插入互联网图片（新浪做图床）" class="headerlink" title="（2）插入互联网图片（新浪做图床）"></a>（2）插入互联网图片（新浪做图床）</h3><p><img src="http://wx1.sinaimg.cn/mw690/005QlB3Zly1g2ye70jivhj31400u0x6p.jpg" alt></p>
+<h3 id="（3）-自动连接"><a href="#（3）-自动连接" class="headerlink" title="（3） 自动连接"></a>（3） 自动连接</h3><h2 id="2-4-分割线"><a href="#2-4-分割线" class="headerlink" title="2.4 分割线"></a>2.4 分割线</h2><p>“***”</p>
+<hr>
+<h2 id="“—“"><a href="#“—“" class="headerlink" title="“—“"></a>“—“</h2><p>“___”</p>
+<hr>
+<h2 id="2-5-代码块"><a href="#2-5-代码块" class="headerlink" title="2.5 代码块"></a>2.5 代码块</h2><p>(1)代码块：—Tab</p>
+<pre><code>#include&lt;test.1&gt;
+int main(void)
+{
+printf(&quot;hello world\n&quot;);
+}  
+</code></pre><p>(2)行内式：<code>看这个效果    怎么样    不怎么明显啊</code>  </p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2019/05/11/test-my-site/" data-id="cjvkkfhmf00034wvpugm99ufu" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/markdown/">markdown</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-测试" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2019/05/10/测试/" class="article-date">
@@ -173,9 +229,66 @@ public String toString(){
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/05/10/测试/" data-id="cjvkk5fod0001xcvpmx2ot621" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/05/10/测试/" data-id="cjvkkfhn900074wvp1d2d5zot" class="article-share-link">Share</a>
       
       
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-HadoopRPC" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/05/09/HadoopRPC/" class="article-date">
+  <time datetime="2019-05-09T14:34:37.000Z" itemprop="datePublished">2019-05-09</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/05/09/HadoopRPC/">test_my_site</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="1、RPC远程过程调用"><a href="#1、RPC远程过程调用" class="headerlink" title="1、RPC远程过程调用"></a>1、RPC远程过程调用</h1><h2 id="1-1、RPC概念"><a href="#1-1、RPC概念" class="headerlink" title="1.1、RPC概念"></a>1.1、RPC概念</h2><p> RPC(Remote Procedure Call)—远程过程调用，它是一种通过网络从远程计算机程序上请求服务，而不需要了解底层网络技术的协议。  </p>
+<pre><code>第七层：应用层。定义了用于在网络中进行通信和传输数据的接口；  
+第六层：表示层。定义不同的系统中数据的传输格式，编码和解码规范等；  
+第五层：会话层。管理用户的会话，控制用户间逻辑连接的建立和中断；  
+第四层：传输层。管理着网络中的端到端的数据传输；  
+第三层：网络层。定义网络设备间如何传输数据；  
+第二层：链路层。将上面的网络层的数据包封装成数据帧，便于物理层传输；  
+第一层：物理层。这一层主要就是传输这些二进制数据。  
+</code></pre><p>HTTP是应用层协议；TCP是传输层协议。  </p>
+<p>RPC采用客户机/服务器（C/S）模式：请求程序就是一个客户机，而服务提供程序就是一个服务器。  </p>
+<h2 id="1-2、为什么要有RPC"><a href="#1-2、为什么要有RPC" class="headerlink" title="1.2、为什么要有RPC"></a>1.2、为什么要有RPC</h2><blockquote>
+<p>RPC框架的职责是：让调用方感觉就像调用本地函数一样调用远端函数、让服务提供方感觉就像实现一个本地函数一样来实现服务，并且屏蔽编程语言的差异性。<br>  RPC的主要功能目标是让构建分布式计算（应用）更容易，在提供墙打的远程调用能力时不损失本地调用的语义简洁性。  </p>
+</blockquote>
+<h2 id="1-3、Java中流行的RPC框架"><a href="#1-3、Java中流行的RPC框架" class="headerlink" title="1.3、Java中流行的RPC框架"></a>1.3、Java中流行的RPC框架</h2><h3 id="1、RMI（远程方法调用）"><a href="#1、RMI（远程方法调用）" class="headerlink" title="1、RMI（远程方法调用）"></a>1、RMI（远程方法调用）</h3><p>JAVA自带的远程方法调用工具，不过有一定的局限性，毕竟是java语言最开始时设计的，后来很多框架的原理都基于RMI  </p>
+<h3 id="2、Hessian（基于HTTP的远程方法调用）"><a href="#2、Hessian（基于HTTP的远程方法调用）" class="headerlink" title="2、Hessian（基于HTTP的远程方法调用）"></a>2、Hessian（基于HTTP的远程方法调用）</h3><p>  基于HTTP协议传输，在性能方面还不够完美，负载均衡和失效转移依赖于应用的负载均衡器，Hessian的使用则与RMI类似，区别在于淡化了Registry的角色，通过显示的地址调用，利用HessianProxyFactory根据配置的地址create一个代理对象，另外还要引入Hessian的Jar包。</p>
+<h3 id="3、Dubbo（阿里开源的基于TCP的RPC框架）"><a href="#3、Dubbo（阿里开源的基于TCP的RPC框架）" class="headerlink" title="3、Dubbo（阿里开源的基于TCP的RPC框架）"></a>3、Dubbo（阿里开源的基于TCP的RPC框架）</h3><pre><code>基于 Netty 的高性能 RPC 框架，是阿里巴巴开源的  
+</code></pre><p> 阿里的 dubbo 现在已经贡献给 Apache 了，官网是：<a href="http://dubbo.apache.org/" target="_blank" rel="noopener">http://dubbo.apache.org/</a><br> Duboo 的中文官网：<br>   <a href="https://dubbo.gitbooks.io/dubbo-user-book/content/preface/background.html" target="_blank" rel="noopener">https://dubbo.gitbooks.io/dubbo-user-book/content/preface/background.html</a></p>
+<h1 id="2、Hadoop-RPC"><a href="#2、Hadoop-RPC" class="headerlink" title="2、Hadoop RPC"></a>2、Hadoop RPC</h1><h2 id="2-1、Hadoop-RPC-概述"><a href="#2-1、Hadoop-RPC-概述" class="headerlink" title="2.1、Hadoop RPC 概述"></a>2.1、Hadoop RPC 概述</h2><p>&emsp;&emsp;  同其他 RPC 框架一样，Hadoop RPC 分为四个部分：</p>
+<p><strong>1、序列化层</strong>：Client 与 Server 端通信传递的信息采用了 Hadoop 里提供的序列化类或自定义<br>的 Writable 类型；<br><strong>2、函数调用层</strong>：Hadoop RPC 通过动态代理以及 Java 反射实现函数调用；<br><strong>3、网络传输层</strong>：Hadoop RPC 采用了基于 TCP/IP 的 socket 机制；<br><strong>4、服务器端框架层</strong>：RPC Server 利用 Java NIO 以及采用了事件驱动的 I/O 模型，提高 RPC<br>Server 的并发处理能力；  </p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2019/05/09/HadoopRPC/" data-id="cjvkkfhm400004wvpfyiv28gv" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/RPCHadoop-RPC/">RPC	Hadoop RPC</a></li></ul>
+
     </footer>
   </div>
   
@@ -218,7 +331,7 @@ public String toString(){
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/05/09/hello-world/" data-id="cjvkk5fnf0000xcvpx2gehq8q" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/05/09/hello-world/" data-id="cjvkkfhmb00014wvprwjpggw7" class="article-share-link">Share</a>
       
       
     </footer>
@@ -238,9 +351,23 @@ public String toString(){
 
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/RPCHadoop-RPC/">RPC	Hadoop RPC</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/markdown/">markdown</a></li></ul>
+    </div>
+  </div>
+
 
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/RPCHadoop-RPC/" style="font-size: 10px;">RPC	Hadoop RPC</a> <a href="/tags/markdown/" style="font-size: 10px;">markdown</a>
+    </div>
+  </div>
+
   
     
   <div class="widget-wrap">
@@ -259,7 +386,15 @@ public String toString(){
       <ul>
         
           <li>
+            <a href="/2019/05/11/test-my-site/">markdown实用技巧</a>
+          </li>
+        
+          <li>
             <a href="/2019/05/10/测试/">测试</a>
+          </li>
+        
+          <li>
+            <a href="/2019/05/09/HadoopRPC/">test_my_site</a>
           </li>
         
           <li>
