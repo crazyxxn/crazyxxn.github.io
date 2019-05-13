@@ -1,12 +1,101 @@
 <!DOCTYPE html>
-<html>
-<head><meta name="generator" content="Hexo 3.8.0">
-  <meta charset="utf-8">
-  
+
+
+
+
+
+
+
+
+
+
+
 
   
-  <title>CrazyX</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+<html class="theme-next pisces use-motion" lang>
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2">
+
+<link rel="stylesheet" href="/css/main.css?v=7.1.1">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.1.1">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.1.1">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.1.1">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=7.1.1" color="#222">
+
+
+
+
+
+
+
+<script id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '7.1.1',
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false,"dimmer":false},
+    back2top: true,
+    back2top_sidebar: false,
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
   <meta name="description" content="new">
 <meta name="keywords" content="nothing">
 <meta property="og:type" content="website">
@@ -18,137 +107,435 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="CrazyX">
 <meta name="twitter:description" content="new">
+
+
+
+
+
   
-    <link rel="alternate" href="/atom.xml" title="CrazyX" type="application/atom+xml">
   
-  
-    <link rel="icon" href="/favicon.png">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  <link rel="stylesheet" href="/css/style.css">
-</head>
-</html>
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">CrazyX</a>
-      </h1>
-      
-        <h2 id="subtitle-wrap">
-          <a href="/" id="subtitle">Hello,world.</a>
-        </h2>
-      
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
-      </div>
-    </div>
-  </div>
-</header>
-      <div class="outer">
-        <section id="main">
-  
-    <article id="post-test-my-site" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/05/11/test-my-site/" class="article-date">
-  <time datetime="2019-05-11T08:02:17.000Z" itemprop="datePublished">2019-05-11</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/05/11/test-my-site/">markdown实用技巧</a>
-    </h1>
+  <link rel="canonical" href="http://yoursite.com/">
+
+
+
+<script id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>CrazyX</title>
   
 
+
+
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .motion-element,
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-title { opacity: initial; }
+
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="default">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left 
+  page-home">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">CrazyX</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+      
+        <p class="site-subtitle">Hello,world.</p>
+      
+    
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="Navigationsleiste an/ausschalten">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home menu-item-active">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>Startseite</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>Archiv</a>
+
+  </li>
+
+      
+      
+    </ul>
+  
+
+  
+
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+            
+
+          
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/05/13/test/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content>
+      <meta itemprop="description" content="new">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="CrazyX">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2019/05/13/test/" class="post-title-link" itemprop="url">test</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+
+              
+                
+              
+
+              <time title="Erstellt: 2019-05-13 20:58:38 / Geändert am: 20:59:19" itemprop="dateCreated datePublished" datetime="2019-05-13T20:58:38+08:00">2019-05-13</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
     
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>写在前面：<br>我自己下载的markdownpad2，为了以后写东西方便，提前备这么一份文档，来记录各种用法。你在左边写，右边会显示效果，就不一一列举了。<br>参考：<a href="https://blog.csdn.net/jaywon/article/details/77992082" target="_blank" rel="noopener">https://blog.csdn.net/jaywon/article/details/77992082</a><br><a href="https://blog.csdn.net/u014061630/article/details/81359144" target="_blank" rel="noopener">https://blog.csdn.net/u014061630/article/details/81359144</a> </p>
-<h1 id="Markdown-实用技巧汇总"><a href="#Markdown-实用技巧汇总" class="headerlink" title="Markdown 实用技巧汇总"></a>Markdown 实用技巧汇总</h1><pre><code>Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。
-</code></pre><h1 id="1-快捷键"><a href="#1-快捷键" class="headerlink" title="1.快捷键"></a>1.快捷键</h1><p>加粗        &emsp;    Ctrl+B<br>斜体        &emsp;    Ctrl+I<br>引用        &emsp;    Ctrl+Q<br>插入链接        Ctrl+L<br>插入代码        Ctrl+K<br>插入图片        Ctrl+G<br>提升标题        Ctrl+H<br>有序列表        Ctrl+O<br>无序列表        Ctrl+U<br>横线        &emsp;    Ctrl+R<br>撤销        &emsp;    Ctrl+Z<br>重做         &ensp;&ensp;    Ctrl+Y  (半角空格)</p>
-<h1 id="2-基本语法"><a href="#2-基本语法" class="headerlink" title="2.基本语法"></a>2.基本语法</h1><h2 id="2-1-字体设置、斜体、粗体、删除线"><a href="#2-1-字体设置、斜体、粗体、删除线" class="headerlink" title="2.1 字体设置、斜体、粗体、删除线"></a>2.1 字体设置、斜体、粗体、删除线</h2><p><em>这是一句话</em><br><em>这是一句话</em><br><strong>这是一句话</strong><br><strong><em>这是一句话</em></strong><br><del>这也是一句话</del>  </p>
-<h2 id="2-2-分级标题"><a href="#2-2-分级标题" class="headerlink" title="2.2 分级标题"></a>2.2 分级标题</h2><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><h1 id="这是一个标题"><a href="#这是一个标题" class="headerlink" title="这是一个标题"></a>这是一个标题</h1><h2 id="这也是一个标题"><a href="#这也是一个标题" class="headerlink" title="这也是一个标题  "></a>这也是一个标题  </h2><h2 id="2-3-链接"><a href="#2-3-链接" class="headerlink" title="2.3 链接"></a>2.3 链接</h2><h3 id="1-插入本地图片链接"><a href="#1-插入本地图片链接" class="headerlink" title="(1) 插入本地图片链接"></a>(1) 插入本地图片链接</h3><p><img src="/pic.png" alt="图片描述"></p>
-<p><img src="/pics/pic01.jpg" alt="图片描述"></p>
-<h3 id="（2）插入互联网图片（新浪做图床）"><a href="#（2）插入互联网图片（新浪做图床）" class="headerlink" title="（2）插入互联网图片（新浪做图床）"></a>（2）插入互联网图片（新浪做图床）</h3><p><img src="http://wx1.sinaimg.cn/mw690/005QlB3Zly1g2ye70jivhj31400u0x6p.jpg" alt></p>
-<h3 id="（3）-自动连接"><a href="#（3）-自动连接" class="headerlink" title="（3） 自动连接"></a>（3） 自动连接</h3><h2 id="2-4-分割线"><a href="#2-4-分割线" class="headerlink" title="2.4 分割线"></a>2.4 分割线</h2><p>“***”</p>
-<hr>
-<h2 id="“—“"><a href="#“—“" class="headerlink" title="“—“"></a>“—“</h2><p>“___”</p>
-<hr>
-<h2 id="2-5-代码块"><a href="#2-5-代码块" class="headerlink" title="2.5 代码块"></a>2.5 代码块</h2><p>(1)代码块：—Tab</p>
-<pre><code>#include&lt;test.1&gt;
-int main(void)
-{
-printf(&quot;hello world\n&quot;);
-}  
-</code></pre><p>(2)行内式：<code>看这个效果    怎么样    不怎么明显啊</code>  </p>
 
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>stay hungry,stay foolish.</p>
+
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/05/11/test-my-site/" data-id="cjvkkfhmf00034wvpugm99ufu" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/markdown/">markdown</a></li></ul>
 
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
     </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
+
+    
+      
 
   
-    <article id="post-测试" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/05/10/测试/" class="article-date">
-  <time datetime="2019-05-10T14:17:00.000Z" itemprop="datePublished">2019-05-10</time>
-</a>
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/05/10/测试/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content>
+      <meta itemprop="description" content="new">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="CrazyX">
+    </span>
+
     
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/05/10/测试/">测试</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2019/05/10/测试/" class="post-title-link" itemprop="url">JVM</a>
+              
+            
+          </h1>
+        
 
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+
+              
+                
+              
+
+              <time title="Erstellt: 2019-05-10 22:17:00" itemprop="dateCreated datePublished" datetime="2019-05-10T22:17:00+08:00">2019-05-10</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2019-05-13 19:35:51" itemprop="dateModified" datetime="2019-05-13T19:35:51+08:00">2019-05-13</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
     
-    <div class="article-entry" itemprop="articleBody">
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
-        <h1 id="JVM-概述"><a href="#JVM-概述" class="headerlink" title="JVM 概述"></a>JVM 概述</h1><h2 id="JVM平台无关性"><a href="#JVM平台无关性" class="headerlink" title="JVM平台无关性"></a>JVM平台无关性</h2><p>   Java是一个跨平台的语言，一次编译，到处运行。<br>       Java的跨平台，就是因为JVM的跨平台。其实JVM并不跨平台，大家在安装jdk,有Windows，Linux，mac,os版本。<br>   一个程序在不同的机器上面执行，需要这么几个过程！<br>       Java源代码(.java) –&gt; 编译(.class) –&gt; 解释执行（机器码）<br>       C语言源代码(.c) —&gt; 编译(.h)（这个编译后的文件是 能够直接在计算机中执行）  </p>
+      
+
+      
+        
+          
+            <h1 id="JVM-概述"><a href="#JVM-概述" class="headerlink" title="JVM 概述"></a>JVM 概述</h1><h2 id="JVM平台无关性"><a href="#JVM平台无关性" class="headerlink" title="JVM平台无关性"></a>JVM平台无关性</h2><p>   Java是一个跨平台的语言，一次编译，到处运行。<br>       Java的跨平台，就是因为JVM的跨平台。其实JVM并不跨平台，大家在安装jdk,有Windows，Linux，mac,os版本。<br>   一个程序在不同的机器上面执行，需要这么几个过程！<br>       Java源代码(.java) –&gt; 编译(.class) –&gt; 解释执行（机器码）<br>       C语言源代码(.c) —&gt; 编译(.h)（这个编译后的文件是 能够直接在计算机中执行）  </p>
 <h2 id="JVM简介"><a href="#JVM简介" class="headerlink" title="JVM简介"></a>JVM简介</h2><p>   JVM 全称 Java Virtual Machine(Java虚拟机)<br>       通过软件来模拟出来的具有完整的硬件系统功能的、运行在完全隔离的环境中的完整的计算机系统。<br>   JVM世界观：java对象在jvm里生老病死。（ 从创建–&gt;销毁 ）<br>   作为java编译器和os之间的虚拟解释器，JVM根据不同的os，将java编译后的目标代码（字节码）解释成不同os可以运行的机器指令，所以说：有了JVM之后，java语言在不同平台上运行时不需要重新编译。一次编写，处处运行！  </p>
 <h2 id="JVM-发展史"><a href="#JVM-发展史" class="headerlink" title="JVM 发展史"></a>JVM 发展史</h2><p>  可以通过java -version来查看当前jdk中使用的jvm版本<br>      HotSpot VM:热代码追踪款<br>  历史经典版本：classic VM(经典款）, extact VM（准确式内存管理款）–基于句柄的查找。<br>   –句柄（<a href="https://www.cnblogs.com/mlgjb/p/8588028.html）" target="_blank" rel="noopener">https://www.cnblogs.com/mlgjb/p/8588028.html）</a></p>
 <h3 id="hotspot-热代码探测技术"><a href="#hotspot-热代码探测技术" class="headerlink" title="hotspot    热代码探测技术"></a>hotspot    热代码探测技术</h3><p>  01、从程序找出最具有编译价值的代码进行编译<br>  02、通过编译器与解释器恰当地协同工作，可以在最优化的程序响应时间与最佳执行性能中取得平衡，即时编译的时间压力也相对减小，这样有助于引入更多的代码优化技术，输出质量更高的本地代码[机器执行码]。  </p>
@@ -162,8 +549,15 @@ printf(&quot;hello world\n&quot;);
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br></pre></td><td class="code"><pre><span class="line">public class ConstantPool &#123;</span><br><span class="line">    public static void main(String[] args) &#123;</span><br><span class="line">        /*</span><br><span class="line">            String str1=new String(&quot;hello&quot;);创建了几个对象？</span><br><span class="line">            2</span><br><span class="line">         */</span><br><span class="line">            String str1 = new String(&quot;hello&quot;);</span><br><span class="line"></span><br><span class="line">            String str2 = new String(&quot;hello&quot;);</span><br><span class="line">            /**</span><br><span class="line">             * ==的比较</span><br><span class="line">             *  如果两侧是基本数据类型，比较的实际的值</span><br><span class="line">             *  如果两侧是引用型数据类型，比较的是内存地址值</span><br><span class="line">             * eqauls()，该方法是Object中的一个方法</span><br><span class="line">             *  默认比较也是内存地址值</span><br><span class="line">             *  在String类中equals比较的两个字符串的值是否相等</span><br><span class="line">             *</span><br><span class="line">             * str1.toString()==str2.toString() &lt;=&gt; str1 == str2</span><br><span class="line">             * public String toString() &#123;</span><br><span class="line">             return this;</span><br><span class="line">             &#125;</span><br><span class="line">             */</span><br><span class="line">            System.out.println(str1==str2);//f</span><br><span class="line">            System.out.println(str1.equals(str2));//t</span><br><span class="line">            System.out.println(str1.toString()==str2.toString());//f</span><br><span class="line">            String str3=&quot;hello&quot;;</span><br><span class="line">            String str4=&quot;hello&quot;;</span><br><span class="line"></span><br><span class="line">            System.out.println(str3 == str4);//t</span><br><span class="line">        /*</span><br><span class="line">            装箱和拆箱</span><br><span class="line">            装箱，就是将java基本数据类型转化为对象的操作</span><br><span class="line">            拆箱，就是将java对象转化为基本数据类型的操作</span><br><span class="line">            一般情况下都是自动来完成，就是说不用创建对象的方式来完成</span><br><span class="line">            Integer i = new Integer(3);//装箱或者创建对象</span><br><span class="line">            Integer i = 3;//自动装箱</span><br><span class="line">            int a = i.intValue();//拆箱</span><br><span class="line">            int a = new Integer(3);//自动拆箱</span><br><span class="line">         */</span><br><span class="line">            System.out.println(new Integer(1) == new Integer(1));//f</span><br><span class="line">            int a = new Integer(127);</span><br><span class="line">            int b = new Integer(127);</span><br><span class="line">            //此时a和b都是基本数据类型，比较的是值</span><br><span class="line">            System.out.println(&quot;a==b?&quot; + (a == b));//t</span><br><span class="line">            /**</span><br><span class="line">             * jvm有一个数字优化的技术，会将一个byte范围内[-128, 127]之间的数据的创建交给方法区</span><br><span class="line">             */</span><br><span class="line">            Integer c = 127;</span><br><span class="line">            Integer d = 127;</span><br><span class="line">            System.out.println(&quot;c==d?&quot; + (c == d));//t</span><br><span class="line">            Integer e = 128;//这里面有一个自动装箱new Integer(128)</span><br><span class="line">            Integer f = 128;//这里面有一个自动装箱new Integer(128)</span><br><span class="line">            System.out.println(&quot;e==f?&quot; + (e == f));//f</span><br><span class="line">    &#125;</span><br><span class="line">   </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <h2 id="JVM的异常"><a href="#JVM的异常" class="headerlink" title="JVM的异常"></a>JVM的异常</h2><p>程序计数器<br>没有指定任何OutOfMemoryError情况<br>java虚拟机栈\本地方法栈区域<br>如果线程请求的栈深度大于虚拟机所允许的深度，将抛出StackOverflowError异常；如果扩展时无法申请到足够的内存，就会抛出OutOfMemoryError异常<br>堆<br>如果在堆中没有内存完成实例分配，并且堆也无法再扩展时，将会抛出OutOfMemoryError异常<br> 报错后dump出信息： -XX:+HeapDumpOnOutOfMemoryError<br>方法区<br>当方法区无法满足内存分配需求时，将抛出OutOfMemoryError异常</p>
 <h1 id="对象的引用"><a href="#对象的引用" class="headerlink" title="对象的引用**"></a>对象的引用**</h1><p>   Java中的引用除了<em>强引用</em>（Person p = new Person())以外，还有其他三种引用，软引用，弱引用，虚（幽灵）引用。这四种引用的强弱关系，依次降低。<br>强引用<br>    在程序代码之中正常的类似于”Person p = new Person()”这类的引用；垃圾收集器不会回收掉被强引用的对象。<br>软引用<br>    有用但非必须的对象，jdk中提供了SoftReference类来实现软引用；系统在发生内存溢出异常之前，会把只被软引用的对象进行回收。<br>    用途？可以做缓存<br>虚引用<br>对被引用对象的生存时间不影响；无法通过虚引用来取得一个对象实例；为一个对象设置虚引用关联的唯一目的就是能在这个对象被收集器回收时收到一个系统通知；jdk提供PhantomReference类来实现虚引用。</p>
-<p>‘’’<br>public class ReferenceTest {<br>    public static void main(String[] args) {<br>        System.out.println(“==========强引用===========”);<br>        Person p = new Person();<br>        System.gc();//<br>        System.out.println(p);</p>
-<pre><code>    System.out.println(&quot;=====软引用=====&quot;);
+<pre><code>&apos;&apos;&apos;
+public class ReferenceTest {
+    public static void main(String[] args) {
+    System.out.println(&quot;==========强引用===========&quot;);
+    Person p = new Person();
+    System.gc();//
+    System.out.println(p);
+
+    System.out.println(&quot;=====软引用=====&quot;);
     SoftReference&lt;Person&gt; sp = new SoftReference&lt;Person&gt;(new Person());
     System.gc();
     System.out.println(sp.get());
@@ -202,15 +596,20 @@ printf(&quot;hello world\n&quot;);
         System.out.println(sp.get());
     }
 
+    }
 }
-</code></pre><p>}</p>
-<p>class Person{<br>    String name = “张三” ;</p>
-<pre><code>@Override
-public String toString(){
-    return name;
-}
-</code></pre><p>}’’’</p>
-<h1 id="对象可达性分析"><a href="#对象可达性分析" class="headerlink" title="对象可达性分析***"></a>对象可达性分析***</h1><p>   Java中用来判定对象是否被引用，就通过可达性分析来完成，早期最简单的方式就是通过引用计数器法来帮你判定对象是否被引用。  </p>
+
+
+class Person{
+    String name = &quot;张三&quot; ;
+
+    @Override
+    public String toString(){
+        return name;
+    }
+
+}&apos;&apos;&apos;
+</code></pre><h1 id="对象可达性分析"><a href="#对象可达性分析" class="headerlink" title="对象可达性分析***"></a>对象可达性分析***</h1><p>   Java中用来判定对象是否被引用，就通过可达性分析来完成，早期最简单的方式就是通过引用计数器法来帮你判定对象是否被引用。  </p>
 <h2 id="引用计数法"><a href="#引用计数法" class="headerlink" title="引用计数法"></a>引用计数法</h2><p>   引用计数算法基本思想：给对象中添加一个引用计数器，每当有一个地方引用它时，计数器值就加1；当引用失效时，计数器值就减1；任何时刻计数器为0的对象就是不可能再被使用的。  </p>
 <h2 id="可达性分析"><a href="#可达性分析" class="headerlink" title="可达性分析"></a>可达性分析</h2><p>   通过一系列的称为”GC Roots”的对象作为起始点，从这些节点开始向下搜索，搜索所走过的路径称为引用链(Reference Chain),当一个对象GC Roots没有任何引用链相连（即不可达）时，则证明此对象是不可用的。  </p>
 <h2 id="GC-Roots对象："><a href="#GC-Roots对象：" class="headerlink" title="GC Roots对象："></a>GC Roots对象：</h2><p>   虚拟机栈（栈帧中的本地变量表）中引用的对象。<br>   方法区中类静态属性引用的对象。<br>   方法区中常量引用的对象。<br>   本地方法栈中JNI(Java Native Interface即一般说的Native方法)引用的对象。  </p>
@@ -220,48 +619,167 @@ public String toString(){
 <h2 id="复制算法"><a href="#复制算法" class="headerlink" title="复制算法"></a>复制算法</h2><p>   是新生代的算法<br>   复制算法：它将可用内存按容量划分为大小相等的两块，每次只使用其中的一块。当这一块的内存用完了，就将还存活着的对象复制到另外一块上面，然后再把已使用过的内存空间一次清理掉。<br>   优点：无内存碎片，只要移动堆顶指针，按顺序分配内存即可，实现简单，运行高效。缺点：实际可用内存缩小为原来的一半。<br>   现在的商业虚拟机都采用这种收集算法来回收新生代。<br>   1、将内存分为一块较大的Eden空间和两块较小的Survivor空间；<br>   2、每次使用Eden和其中一块Survivor.<br>   3、当回收时，将Eden和Survivor中还存活着的对象一次性地复制到另一块Survivor空间上，并清理掉Eden和刚才用过的Survivor空间。<br>   HotSpot虚拟机默认Eden和Survivor的大小比例是8：1：1，浪费10%。  </p>
 <h2 id="垃圾回收方式"><a href="#垃圾回收方式" class="headerlink" title="垃圾回收方式"></a>垃圾回收方式</h2><p>   也就是gc的方式。<br>   Minor GC：清理年轻代的gc被称之为Minor GC —&gt; 采用的是复制算法<br>   Major GC：清理老年代或者永久代的gc被称之为Major GC —&gt; 标记清除算法<br>   Full GC：清理整个堆内存空间的gc被称为Full GC = MinorGC + MajorGC  </p>
 <h1 id="JVM内存分配"><a href="#JVM内存分配" class="headerlink" title="JVM内存分配"></a>JVM内存分配</h1><h2 id="分配策略"><a href="#分配策略" class="headerlink" title="分配策略"></a>分配策略</h2><p>   对象在Eden分配：大多数情况下，对象在新生代Eden区中分配。当Eden区没有足够空间进行分配时，虚拟机将发起一次Minor GC，此时对象会进入Survivor区，当对象满足一些条件后会进入老年代。  </p>
-<h2 id="对象进入老年代的三种方式"><a href="#对象进入老年代的三种方式" class="headerlink" title="对象进入老年代的三种方式"></a>对象进入老年代的三种方式</h2><p>   1、big object直接进入老年代<br>   虚拟机提供了一个-XX：PretenureSizeThreshold参数，令大于这个设置值的对象直接在老年代分配。这样做的目的时避免在Eden区及两个Survivor区之间发生大量的内存复制。  </p>
-<p>   令体积大于3M的对象在老年代中创建，小于该阈值的对象在eden区中被创建。<br>   2、当对象的age达到阈值的时候，直接进入老年代<br>   jvm中的对象，自eden区被创建起，就有了年龄，当熬过一次minor gc没有被回收之后，年龄age+1.默认情况下经过15此gc之后，任然没有被垃圾回收掉的对象，也就是对象年龄&gt;=15，晋升到老年代。<br>   可以通过-xx:MaxTenuringThreshould参数来设置对象的进入老年代的年龄阈值。  </p>
-<p>   3、当某一年龄的对象的总体积达到了survivor内存的一半的时候，大于等于该年龄的对象集体进入老年代。<br>   无须等到MaxTenuringThreshould中要求的年龄。  </p>
+<h2 id="对象进入老年代的三种方式"><a href="#对象进入老年代的三种方式" class="headerlink" title="对象进入老年代的三种方式"></a>对象进入老年代的三种方式</h2><h3 id="1、big-object直接进入老年代"><a href="#1、big-object直接进入老年代" class="headerlink" title="1、big object直接进入老年代"></a>1、big object直接进入老年代</h3><p>   虚拟机提供了一个-XX：PretenureSizeThreshold参数，令大于这个设置值的对象直接在老年代分配。这样做的目的时避免在Eden区及两个Survivor区之间发生大量的内存复制。  </p>
+<p>   令体积大于3M的对象在老年代中创建，小于该阈值的对象在eden区中被创建。  </p>
+<h3 id="2、当对象的age达到阈值的时候，直接进入老年代"><a href="#2、当对象的age达到阈值的时候，直接进入老年代" class="headerlink" title="2、当对象的age达到阈值的时候，直接进入老年代"></a>2、当对象的age达到阈值的时候，直接进入老年代</h3><p>   jvm中的对象，自eden区被创建起，就有了年龄，当熬过一次minor gc没有被回收之后，年龄age+1.默认情况下经过15此gc之后，任然没有被垃圾回收掉的对象，也就是对象年龄&gt;=15，晋升到老年代。<br>   可以通过-xx:MaxTenuringThreshould参数来设置对象的进入老年代的年龄阈值。  </p>
+<h3 id="3、当某一年龄的对象的总体积达到了survivor内存的一半的时候，大于等于该年龄的对象集体进入老年代。"><a href="#3、当某一年龄的对象的总体积达到了survivor内存的一半的时候，大于等于该年龄的对象集体进入老年代。" class="headerlink" title="3、当某一年龄的对象的总体积达到了survivor内存的一半的时候，大于等于该年龄的对象集体进入老年代。"></a>3、当某一年龄的对象的总体积达到了survivor内存的一半的时候，大于等于该年龄的对象集体进入老年代。</h3><p>   无须等到MaxTenuringThreshould中要求的年龄。  </p>
 <h1 id="空间分配担保"><a href="#空间分配担保" class="headerlink" title="空间分配担保"></a>空间分配担保</h1><p>   在发生Minor gc之前，虚拟机会先检查老年代最大可用的连续空间是否大于新生代的所有对象总空间，如果这个条件成立，那么Minor GC可以确保时安全的。<br>   如果不成立，则虚拟机会查看-XX:HandlePromotionFailure设置值是否允许担保失败。<br>   如果允许，那么会继续检查老年代最大可用的连续空间是否大于历次晋升到老年代对象的平均大小，如果大于，将尝试着进行一次Minor GC，尽管这次Minor GC是有风险的；如果小于，或者HandlePromotionFailure设置不允许冒险，那这时也要改为进行一次Full GC。</p>
 <h1 id="垃圾收集器"><a href="#垃圾收集器" class="headerlink" title="垃圾收集器"></a>垃圾收集器</h1><h2 id="并行和并发"><a href="#并行和并发" class="headerlink" title="并行和并发"></a>并行和并发</h2><p>   并行（parallel）：指多条垃圾收集线程并行工作，但是此时：用户线程仍然处于线程等待状态。<br>   并发（Concurrent）：指用户线程和垃圾收集线程同时执行（但不一定时并行的，可能会交替执行），用户程序在继续运行，而垃圾收集程序运行于另一个cpu上。</p>
 <h2 id="常见垃圾收集器"><a href="#常见垃圾收集器" class="headerlink" title="常见垃圾收集器"></a>常见垃圾收集器</h2>
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/05/10/测试/" data-id="cjvkkfhn900074wvp1d2d5zot" class="article-share-link">Share</a>
+
+    
+
+    
+    
+    
+
+    
+
+    
       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
       
     </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
+
+    
+      
 
   
-    <article id="post-HadoopRPC" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/05/09/HadoopRPC/" class="article-date">
-  <time datetime="2019-05-09T14:34:37.000Z" itemprop="datePublished">2019-05-09</time>
-</a>
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/05/09/HadoopRPC/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content>
+      <meta itemprop="description" content="new">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="CrazyX">
+    </span>
+
     
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/05/09/HadoopRPC/">test_my_site</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2019/05/09/HadoopRPC/" class="post-title-link" itemprop="url">test_my_site</a>
+              
+            
+          </h1>
+        
 
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+
+              
+                
+              
+
+              <time title="Erstellt: 2019-05-09 22:34:37" itemprop="dateCreated datePublished" datetime="2019-05-09T22:34:37+08:00">2019-05-09</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Bearbeitet am</span>
+                
+                <time title="Geändert am: 2019-05-13 19:30:31" itemprop="dateModified" datetime="2019-05-13T19:30:31+08:00">2019-05-13</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
     
-    <div class="article-entry" itemprop="articleBody">
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
-        <h1 id="1、RPC远程过程调用"><a href="#1、RPC远程过程调用" class="headerlink" title="1、RPC远程过程调用"></a>1、RPC远程过程调用</h1><h2 id="1-1、RPC概念"><a href="#1-1、RPC概念" class="headerlink" title="1.1、RPC概念"></a>1.1、RPC概念</h2><p> RPC(Remote Procedure Call)—远程过程调用，它是一种通过网络从远程计算机程序上请求服务，而不需要了解底层网络技术的协议。  </p>
+      
+
+      
+        
+          
+            <h1 id="1、RPC远程过程调用"><a href="#1、RPC远程过程调用" class="headerlink" title="1、RPC远程过程调用"></a>1、RPC远程过程调用</h1><h2 id="1-1、RPC概念"><a href="#1-1、RPC概念" class="headerlink" title="1.1、RPC概念"></a>1.1、RPC概念</h2><p> RPC(Remote Procedure Call)—远程过程调用，它是一种通过网络从远程计算机程序上请求服务，而不需要了解底层网络技术的协议。  </p>
 <pre><code>第七层：应用层。定义了用于在网络中进行通信和传输数据的接口；  
 第六层：表示层。定义不同的系统中数据的传输格式，编码和解码规范等；  
 第五层：会话层。管理用户的会话，控制用户间逻辑连接的建立和中断；  
@@ -278,167 +796,325 @@ public String toString(){
 <h3 id="2、Hessian（基于HTTP的远程方法调用）"><a href="#2、Hessian（基于HTTP的远程方法调用）" class="headerlink" title="2、Hessian（基于HTTP的远程方法调用）"></a>2、Hessian（基于HTTP的远程方法调用）</h3><p>  基于HTTP协议传输，在性能方面还不够完美，负载均衡和失效转移依赖于应用的负载均衡器，Hessian的使用则与RMI类似，区别在于淡化了Registry的角色，通过显示的地址调用，利用HessianProxyFactory根据配置的地址create一个代理对象，另外还要引入Hessian的Jar包。</p>
 <h3 id="3、Dubbo（阿里开源的基于TCP的RPC框架）"><a href="#3、Dubbo（阿里开源的基于TCP的RPC框架）" class="headerlink" title="3、Dubbo（阿里开源的基于TCP的RPC框架）"></a>3、Dubbo（阿里开源的基于TCP的RPC框架）</h3><pre><code>基于 Netty 的高性能 RPC 框架，是阿里巴巴开源的  
 </code></pre><p> 阿里的 dubbo 现在已经贡献给 Apache 了，官网是：<a href="http://dubbo.apache.org/" target="_blank" rel="noopener">http://dubbo.apache.org/</a><br> Duboo 的中文官网：<br>   <a href="https://dubbo.gitbooks.io/dubbo-user-book/content/preface/background.html" target="_blank" rel="noopener">https://dubbo.gitbooks.io/dubbo-user-book/content/preface/background.html</a></p>
+<p><img id="bigImg" style="width: 690px; height: 430px;" src="http://wx3.sinaimg.cn/mw690/005QlB3Zly1g2zwae1dg0j30ln0di0tz.jpg" is_load="1"></p>
 <h1 id="2、Hadoop-RPC"><a href="#2、Hadoop-RPC" class="headerlink" title="2、Hadoop RPC"></a>2、Hadoop RPC</h1><h2 id="2-1、Hadoop-RPC-概述"><a href="#2-1、Hadoop-RPC-概述" class="headerlink" title="2.1、Hadoop RPC 概述"></a>2.1、Hadoop RPC 概述</h2><p>&emsp;&emsp;  同其他 RPC 框架一样，Hadoop RPC 分为四个部分：</p>
-<p><strong>1、序列化层</strong>：Client 与 Server 端通信传递的信息采用了 Hadoop 里提供的序列化类或自定义<br>的 Writable 类型；<br><strong>2、函数调用层</strong>：Hadoop RPC 通过动态代理以及 Java 反射实现函数调用；<br><strong>3、网络传输层</strong>：Hadoop RPC 采用了基于 TCP/IP 的 socket 机制；<br><strong>4、服务器端框架层</strong>：RPC Server 利用 Java NIO 以及采用了事件驱动的 I/O 模型，提高 RPC<br>Server 的并发处理能力；  </p>
+<p><strong>1、序列化层</strong>：Client 与 Server 端通信传递的信息采用了 Hadoop 里提供的序列化类或自定义<br>的 Writable 类型；<br><strong>2、函数调用层</strong>：Hadoop RPC 通过动态代理以及 Java 反射实现函数调用；<br><strong>3、网络传输层</strong>：Hadoop RPC 采用了基于 TCP/IP 的 socket 机制；<br><strong>4、服务器端框架层</strong>：RPC Server 利用 Java NIO 以及采用了事件驱动的 I/O 模型，提高 RPC Server 的并发处理能力；  </p>
+<pre><code>Hadoop RPC 在整个 Hadoop 中应用非常广泛，Client、DataNode、NameNode 之间的通讯全
+靠它了。例如：我们平时操作 HDFS 的时候，使用的是 FileSystem 类，它的内部有个 DFSClient
+对象，这个对象负责与 NameNode 打交道。在运行时，DFSClient 在本地创建一个 NameNode
+的代理，然后就操作这个代理，这个代理就会通过网络，远程调用到 NameNode 的方法，也能返回值。 
+</code></pre><h2 id="2-2、Hadoop-RPC-涉及的技术"><a href="#2-2、Hadoop-RPC-涉及的技术" class="headerlink" title="2.2、Hadoop RPC 涉及的技术"></a>2.2、Hadoop RPC 涉及的技术</h2><p> <strong>1、代理</strong>：动态代理可以提供另一个对象的访问，同时隐藏实际对象的具体事实，代理对象对客户隐藏了实际对象。目前Java开发包中提供了对动态代理的支持，但现在只支持对接口的实现。<br><strong>2、反射</strong>—-动态加载类<br><strong>3、序列化</strong>—-在网络中传输数据必然会涉及到对象的序列化和反序列化<br><strong>4、非阻塞的异步IO(NIO)</strong>  </p>
+<h2 id="2-3、Hadoop-RPC对外提供的接口"><a href="#2-3、Hadoop-RPC对外提供的接口" class="headerlink" title="2.3、Hadoop RPC对外提供的接口"></a>2.3、Hadoop RPC对外提供的接口</h2><p>Hadoop RPC 对外主要提供了两种接口（见类org.apache.hadoop.ipc.RPC），分别是：<br><strong>1、public static<t> ProtocolProxy<t> getProxy/waitForProxy(…)</t></t></strong><br>构造一个客户端代理对象（该对象实现了某个协议），用于向服务器发送RPC请求。<br><strong>2、public static Sever RPC.Builder(Configuration).build()</strong><br>为某个协议（实际上是java接口）实例构造一个服务器对象，用于处理客户端发送的请求。  </p>
+<h2 id="2-4、使用Hadoop-RPC构建应用的步骤"><a href="#2-4、使用Hadoop-RPC构建应用的步骤" class="headerlink" title="2.4、使用Hadoop RPC构建应用的步骤"></a>2.4、使用Hadoop RPC构建应用的步骤</h2><p><strong>1、定义RPC协议</strong><br>RPC协议是客户端和服务器端之间的通信接口，它定义了服务器端对外提供的服务接口。<br><strong>2、实现RPC协议</strong><br>Hadoop RPC 协议通常是一个java接口，用户需要实现该接口。<br><strong>3、构造和启动RPC SERVER</strong><br>直接使用静态类Builder构造一个RPC Sever,并调用函数start（）启动该Server。<br><strong>4、构造RPC Client并发送请求</strong><br>使用静态方法getProxy构造客户端代理对象，直接通过代理对象调用远程端的方法。  </p>
 
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/05/09/HadoopRPC/" data-id="cjvkkfhm400004wvpfyiv28gv" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/RPCHadoop-RPC/">RPC	Hadoop RPC</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/05/09/hello-world/" class="article-date">
-  <time datetime="2019-05-09T14:24:01.997Z" itemprop="datePublished">2019-05-09</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
+          
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/05/09/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
       
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/05/09/hello-world/" data-id="cjvkkfhmb00014wvprwjpggw7" class="article-share-link">Share</a>
+
+    
+
+    
+    
+    
+
+    
+
+    
       
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
       
     </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
+
+    
+  </section>
 
   
 
 
-</section>
+          </div>
+          
+
+        </div>
         
-          <aside id="sidebar">
+          
   
-    
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tags</h3>
-    <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/RPCHadoop-RPC/">RPC	Hadoop RPC</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/markdown/">markdown</a></li></ul>
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
     </div>
   </div>
 
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
 
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tag Cloud</h3>
-    <div class="widget tagcloud">
-      <a href="/tags/RPCHadoop-RPC/" style="font-size: 10px;">RPC	Hadoop RPC</a> <a href="/tags/markdown/" style="font-size: 10px;">markdown</a>
+      
+
+      
+
+      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name"></p>
+              <div class="site-description motion-element" itemprop="description">new</div>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">3</span>
+                    <span class="site-state-item-name">Artikel</span>
+                  </a>
+                </div>
+              
+
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  
+                    
+                    
+                      
+                    
+                    <span class="site-state-item-count">1</span>
+                    <span class="site-state-item-name">schlagwörter</span>
+                  
+                </div>
+              
+            </nav>
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+          
+<br>
+
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=3159198&auto=1&height=66"></iframe>
+          
+            
+          
+          
+
+        </div>
+      </div>
+
+      
+
+
+      
+
     </div>
-  </div>
-
+  </aside>
   
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/05/">May 2019</a></li></ul>
-    </div>
-  </div>
 
 
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2019/05/11/test-my-site/">markdown实用技巧</a>
-          </li>
-        
-          <li>
-            <a href="/2019/05/10/测试/">测试</a>
-          </li>
-        
-          <li>
-            <a href="/2019/05/09/HadoopRPC/">test_my_site</a>
-          </li>
-        
-          <li>
-            <a href="/2019/05/09/hello-world/">Hello World</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-</aside>
         
       </div>
-      <footer id="footer">
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder"></span>
+
   
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2019 CrazyX<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-</footer>
-    </div>
-    <nav id="mobile-nav">
+
   
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
+</div>
+
+
+  <div class="powered-by">Erstellt mit  <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.8.0</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">Design – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a> v7.1.1</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
     
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    
 
+    
 
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-  <script src="/fancybox/jquery.fancybox.pack.js"></script>
-
-
-<script src="/js/script.js"></script>
-
-
-
+    
   </div>
+
+  
+
+<script>
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+
+  
+
+
+  <script src="/js/utils.js?v=7.1.1"></script>
+
+  <script src="/js/motion.js?v=7.1.1"></script>
+
+
+
+  
+  
+
+
+  <script src="/js/affix.js?v=7.1.1"></script>
+
+  <script src="/js/schemes/pisces.js?v=7.1.1"></script>
+
+
+
+  
+
+  
+
+
+  <script src="/js/next-boot.js?v=7.1.1"></script>
+
+
+  
+
+  
+
+  
+
+  
+
+
+
+  
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
 <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/miku.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true}});</script></body>
 </html>
