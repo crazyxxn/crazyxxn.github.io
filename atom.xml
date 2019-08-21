@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://crazyxxn.github.io/"/>
-  <updated>2019-08-12T08:30:35.737Z</updated>
+  <updated>2019-08-21T16:25:23.365Z</updated>
   <id>http://crazyxxn.github.io/</id>
   
   <author>
@@ -15,6 +15,43 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>计算机科学（二）</title>
+    <link href="http://crazyxxn.github.io/2019/08/22/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%EF%BC%88%E4%BA%8C%EF%BC%89/"/>
+    <id>http://crazyxxn.github.io/2019/08/22/计算机科学（二）/</id>
+    <published>2019-08-21T16:25:23.000Z</published>
+    <updated>2019-08-21T16:25:23.365Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>计算机科学（一）</title>
+    <link href="http://crazyxxn.github.io/2019/08/20/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%EF%BC%88%E4%B8%80%EF%BC%89/"/>
+    <id>http://crazyxxn.github.io/2019/08/20/计算机科学（一）/</id>
+    <published>2019-08-20T15:03:48.000Z</published>
+    <updated>2019-08-21T23:20:10.074Z</updated>
+    
+    <content type="html"><![CDATA[<h6 id="写在前面："><a href="#写在前面：" class="headerlink" title="写在前面："></a>写在前面：</h6><p>最近参加了万门的打卡，而且我是转行计算机，所以决定学习下计算机科学这门课。emmm，刚开始写博客，排版有点乱乱的。 emmm… 以后会慢慢调整的。</p><h1 id="程序与设计语言"><a href="#程序与设计语言" class="headerlink" title="程序与设计语言"></a>程序与设计语言</h1><h3 id="一、-程序"><a href="#一、-程序" class="headerlink" title="一、  程序"></a>一、  程序</h3><p>实际上是一个计算机语言描述的某一问题的解决步骤。</p><h3 id="二、-语言"><a href="#二、-语言" class="headerlink" title="二、  语言"></a>二、  语言</h3><p>自然语言：人与人之间交流的工具。<br>计算机语言：人与计算机之间交流的工具。  </p><h3 id="三、-程序设计"><a href="#三、-程序设计" class="headerlink" title="三、  程序设计"></a>三、  程序设计</h3><p>编写程序的过程。主要分为：低级语言与高级语言。  </p><h4 id="1、机器语言：以二进制代码形式表示的机器基本指令的集合、是计算机硬件唯一可以直接识别的执行的语言。"><a href="#1、机器语言：以二进制代码形式表示的机器基本指令的集合、是计算机硬件唯一可以直接识别的执行的语言。" class="headerlink" title="1、机器语言：以二进制代码形式表示的机器基本指令的集合、是计算机硬件唯一可以直接识别的执行的语言。"></a>1、机器语言：以二进制代码形式表示的机器基本指令的集合、是计算机硬件唯一可以直接识别的执行的语言。</h4><p>如：1010 1000 0101  </p><blockquote><p>特点：<br>1.运算速度快（机器可以直接识别）<br>        2.节省内存<br>        3.难阅读，难修改  </p></blockquote><h4 id="2、汇编语言"><a href="#2、汇编语言" class="headerlink" title="2、汇编语言"></a>2、汇编语言</h4><p>用“助记符”来表示机器指令。类似于翻译！</p><blockquote><p>特点：<br>1.计算机无法直接执行（需要汇编程序）<br>2.执行效率比较高，与特定机器相关<br>3.通用性可移植性差  </p></blockquote><p>计算机不能直接识别和执行汇编语言编写的源程序，必须经过汇编程序的系统软件翻译成机器语言程序后才能执行。  </p><h4 id="3、高级语言：用接近于自然语言和数学语言的语句构成的语言。"><a href="#3、高级语言：用接近于自然语言和数学语言的语句构成的语言。" class="headerlink" title="3、高级语言：用接近于自然语言和数学语言的语句构成的语言。"></a>3、高级语言：用接近于自然语言和数学语言的语句构成的语言。</h4><blockquote><p>特点：<br>1.编程效率高，执行速度相对低级语言慢<br>2.可移植性好<br>3.执行需翻译  </p></blockquote><h4 id="4、面向任务的程序设计语言："><a href="#4、面向任务的程序设计语言：" class="headerlink" title="4、面向任务的程序设计语言："></a>4、面向任务的程序设计语言：</h4><blockquote><p>即非过程化的语言，不需要知道问题是如何求解的。<br>例如：SQL（emmm，sql查询语句，刚好有学）  </p></blockquote><h4 id="5、面向对象的程序设计语言："><a href="#5、面向对象的程序设计语言：" class="headerlink" title="5、面向对象的程序设计语言："></a>5、面向对象的程序设计语言：</h4><blockquote><p>认为系统是由许多对象组成的，对象通过消息相互联系和相互作用，从而完成系统的功能。如C++,JAVA,C#等。<br>优点：设计的程序更易懂，更适合大规模的程序开发。</p></blockquote><h1 id="C语言的发展与特点"><a href="#C语言的发展与特点" class="headerlink" title="C语言的发展与特点"></a>C语言的发展与特点</h1><h4 id="一、C语言的发展状况"><a href="#一、C语言的发展状况" class="headerlink" title="一、C语言的发展状况"></a>一、C语言的发展状况</h4><p>C语言是一种高级语言中的低级语言，C语言作为系统描述语言，即可写系统软件，也可写应用软件。如UNIX操作系统，扫雷，贪吃蛇。<br>C语言版本，基本部分相同，只是略有差异。 </p><h4 id="二、C语言的特点"><a href="#二、C语言的特点" class="headerlink" title="二、C语言的特点"></a>二、C语言的特点</h4><blockquote><p>1、语言简洁，紧凑，使用方便，灵活<br>2、运算符丰富<br>3、具有编程语言的各种数据结构<br>4、结构化的控制语句，模块化的编程方式<br>5、语法限制少，程序设计自由度大<br>6、允许访问物理地址，进行位操作，实现汇编语言的功能，直接对硬件进行操作<br>7、生成目标代码质量高，程序执行效率高<br>8、C程序可移植性好（与汇编语言相比）  </p></blockquote><h1 id="C程序的基本结构"><a href="#C程序的基本结构" class="headerlink" title="C程序的基本结构"></a>C程序的基本结构</h1><blockquote><pre><code>1、函数是C程序的基本单位，即C程序是由一个或多个函数构成的，有且只有一个main。  2、一个函数由两部分组成：函数首部和函数题。函数体用{}括起来，体内由变量定义和语句部分组成。函数的首部，即函数的第一行，包括函数的名称，类型，参数名称，参数类型。函数名后面必须由圆括号（）。  3、C程序从main（）函数开始执行，main（）函数可放在任意位置。  4、程序书写格式自由，一行内可写多个语句，一个语句可分写在多行上。  5、每条语句最后必须有一个分号（；）分号是C语句的必要组成部分。  6、由“/*”与“*/”之间的内容构成C语言程序的注释，增强了程序的可读性。  7、用预处理命令#include可以包含有关文件的信息。  8、在C语言中区分大小写，如Main,MAIN,main,maiN是不相同的。！严格区分哦！！！  </code></pre></blockquote><h1 id="C语言的字符集"><a href="#C语言的字符集" class="headerlink" title="C语言的字符集"></a>C语言的字符集</h1><p>要使用某种计算机语言来编写程序，就必须使用符合该语言规定的并且计算机系统能够使用的字符。<br>C语言的基本字符集包括有英文字母，阿拉伯数字和其他一些符号，如：  </p><blockquote><p>1、英文字母：大小写各26个，共计52个；<br>2、阿拉伯数：0~9共十个数字；<br>3、 下划线：_;<br>4、特殊符号：通常指由1~2个符号组成的运算符。<br>算术运算符： + - * / % ++ –<br>关系运算符： &lt; &gt;= &lt;= == != &lt;<br>逻辑运算符： &amp;&amp; || !<br>位运算符：   &amp;  |<br>条件运算符： ? :<br>赋值运算符：  =<br>其他分隔符：  {} [] , . ;  </p></blockquote><h1 id="C语言的标识符"><a href="#C语言的标识符" class="headerlink" title="C语言的标识符"></a>C语言的标识符</h1><blockquote><p>标识符就是用来标识变量名、符号常量名、函数名、类型名、文件名等的有效字符序列。<br>标识符起名规则：<br>1、标识符只能由字母、数字和下划线三种字符组成。<br>2、第一个字符必须为字母或下划线。<br>3、不能取关键字。  </p></blockquote><p>注意：在C语言中，区分大小写。因此，a和A，I和i，Sum和sum，分别是两个不同的标识符。  </p><h1 id="C语言的关键字"><a href="#C语言的关键字" class="headerlink" title="C语言的关键字"></a>C语言的关键字</h1><p>关键字就是具有特定含义的标识符，不能作为变量名或函数名来使用；用户不能用来作自定义标识符。由ANSI标准推荐的关键字有32个，常用的有：  </p><blockquote><p>1、与数据类型有关的（12个）：<br>char int float double signed unsigned short long void struct union enum<br>2、与程序控制结构有关的（12个）：<br>do while for if else switch case default<br>goto continue break return<br>3、与存储类别有关的（4个）：<br>auto extern register static<br>4、其他的（4个）：<br>const sizeof typedef volatile  </p></blockquote><h1 id="算法及算法描述"><a href="#算法及算法描述" class="headerlink" title="算法及算法描述"></a>算法及算法描述</h1><h3 id="一、-算法的概念"><a href="#一、-算法的概念" class="headerlink" title="一、 算法的概念"></a>一、 算法的概念</h3><p>算法，就是研究解题的步骤和方法。<br>学好程序设计语言的两步：<br>1、对数据的描述。即在程序中要指定数据的类型和数据的组织形式，即数据结构。<br>2、对操作的描述。即程序完成其功能所要进行的操作步骤：算法。<br>即：  程序=数据结构+算法  </p><h3 id="二、算法的特点"><a href="#二、算法的特点" class="headerlink" title="二、算法的特点"></a>二、算法的特点</h3><p>1、有穷性。一个算法必须保证执行有限步之后结束；<br>2、确定性。算法的每一个步骤必须具有确切的定义；<br>3、应对算法给出初始量；<br>4、有一个或多个输出；<br>5、有效性。算法的每一步都必须是计算机能进行的有效操作。不能出现如X/0的操作。  </p><h3 id="三、算法的描述方法"><a href="#三、算法的描述方法" class="headerlink" title="三、算法的描述方法"></a>三、算法的描述方法</h3><p>我们可以用自然语言来描述一个问题的解决步骤（即算法），也可以用其他一些约定的描述工具，算法的描述一般有以下方法：<br>①自然语言表示法；<br>②传统的流程图（BS流程图）表示法；<br>③结构化的流程图（N-S流程图）表示法；<br>④伪代码表示法；<br>⑤计算机语言表示法（程序）。  </p><h4 id="1、自然语言："><a href="#1、自然语言：" class="headerlink" title="1、自然语言："></a>1、自然语言：</h4><p>就人们日常进行交流的语言。如：从a,b中找出一个小的数给min。<br>（1）从键盘输入两个数给a和b；<br>（2）如果a比b小，则把a的值传给min，否则把b的值传给min；<br>（3）输出min的值。  </p><h4 id="2、专用工具："><a href="#2、专用工具：" class="headerlink" title="2、专用工具："></a>2、专用工具：</h4><p>借助于有关图形工具或代码符号来描述。  </p><p><img id="bigImg" style="width: 690px; height: 335px;" src="http://wx1.sinaimg.cn/mw690/005QlB3Zly1g67q6ltr0wj30jo09k0tg.jpg" is_load="1">  </p><p><img id="bigImg" style="width: 578px; height: 391px;" src="http://wx3.sinaimg.cn/mw690/005QlB3Zly1g67q73aliij30g20avwfe.jpg" is_load="1"><br></p><p><img id="bigImg" style="width: 690px; height: 326px;" src="http://wx1.sinaimg.cn/mw690/005QlB3Zly1g67q76ul2kj30ng0b3ju7.jpg" is_load="1">  </p><h3 id="常用的算法"><a href="#常用的算法" class="headerlink" title="常用的算法"></a>常用的算法</h3><p>迭代法：也称辗转法，是一种不断用变量的旧值递推新值的过程。<br>穷举法：穷举法的基本思想是根据题目的部分条件确定答案的大致范围，并在此范围内对所有可能的情况逐一验证，直到全部情况验证完毕。<br>递归法：程序调用自身的编程技巧称为递归，是函数自己调用自己。一个函数在其定义中直接调用自身的一种方法，它通常把一个大型的复杂的问题转化为一个与原问题相似的规模较小的问题来解决，可以极大的减少代码量。<br>递推法：通过已知条件，利用特定关系得出中间推论，直至得到结果的算法。  </p><h3 id="C程序的计算机执行过程"><a href="#C程序的计算机执行过程" class="headerlink" title="C程序的计算机执行过程"></a>C程序的计算机执行过程</h3><p><img id="bigImg" style="width: 660px; height: 151px;" src="http://wx3.sinaimg.cn/mw690/005QlB3Zly1g67qk4cyr3j30ic047js5.jpg" is_load="1">    </p><p>基础知识大概就整理了这些，日后可能会有调整，后面安装，实操部分，可能就会慢一些了。欢迎大家指点！<br>个人邮箱：<a href="mailto:nan_1993@live.cn" target="_blank" rel="noopener">nan_1993@live.cn</a>  </p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h6 id=&quot;写在前面：&quot;&gt;&lt;a href=&quot;#写在前面：&quot; class=&quot;headerlink&quot; title=&quot;写在前面：&quot;&gt;&lt;/a&gt;写在前面：&lt;/h6&gt;&lt;p&gt;最近参加了万门的打卡，而且我是转行计算机，所以决定学习下计算机科学这门课。emmm，刚开始写博客，排版有点乱乱的。 
+      
+    
+    </summary>
+    
+    
+      <category term="C语言" scheme="http://crazyxxn.github.io/tags/C%E8%AF%AD%E8%A8%80/"/>
+    
+  </entry>
   
   <entry>
     <title>新的开始</title>
